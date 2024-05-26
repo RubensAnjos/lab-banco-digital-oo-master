@@ -58,7 +58,11 @@ public abstract class Conta implements IConta {
 		this.sacar(valor);
 		contaDestino.depositar(valor);
 	}
-
+    /**
+     * Neste metodo o cliente pode contratar um cheque especial
+     *que se soma ao saldo.
+     * @param "valor" a ser contratado
+     * */
     public  void contratarChequeEspecial(double valor){
         chequeEspecial += valor;
         chequeEspecialcontratado=valor;

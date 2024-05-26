@@ -18,7 +18,7 @@ public class Main {
         cc1.contratarChequeEspecial(100);
         cc1.depositar(50);
         cc1.transferir(100, cc );
-        cc1.depositar(80);
+        cc1.depositar(40);
 
 
 		cc.imprimirExtrato();
